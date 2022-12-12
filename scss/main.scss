@@ -1,0 +1,3814 @@
+@import "media";
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  @include media(1400px) {
+    @media screen and (min-width: $xxl) {
+      .wrapper {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        .mobilemenu {
+          display: none;
+        }
+        .menu {
+          width: 100%;
+          height: 50px;
+          background-color: black;
+          position: fixed;
+          left: 0;
+          top: 0;
+          > nav {
+            width: inherit;
+            height: inherit;
+            > ul {
+              list-style: none;
+              display: flex;
+              justify-content: center;
+              width: inherit;
+              height: inherit;
+              gap: 0 2px;
+              > li {
+                width: auto;
+                height: inherit;
+                > a {
+                  width: auto;
+                  display: block;
+                  padding: 0 20px;
+                  height: inherit;
+                  line-height: 50px;
+                  text-transform: capitalize;
+                  transition: 500ms;
+                  color: white;
+                  &:hover {
+                    background-color: rgba(128, 128, 128, 0.349);
+                  }
+                }
+              }
+            }
+          }
+        }
+        .iphone14 {
+          width: 100%;
+          height: 636px;
+          background-image: url("../images/hero_iphone14__fjmsqstr1ceq_large.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 80px 0 0 0;
+          justify-content: center;
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            > h2 {
+              font-weight: 300;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(0, 0, 0, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 20px;
+              padding: 0 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .gift {
+          width: 100%;
+          height: 537px;
+          background-image: url("../images/hero_endframe__8xosbwdvpaqe_large.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 50px 0 0 0;
+          justify-content: center;
+          align-items: flex-end;
+
+          > div {
+            width: auto;
+
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 60px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: center;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .card {
+          width: 100%;
+          height: 637px;
+          background-image: url("../images/hero__dvsxv8smkkgi_large.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          display: flex;
+          padding: 20px 0 0 0;
+          justify-content: center;
+
+          > div {
+            width: auto;
+
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+              margin-top: 40px;
+              > i {
+                padding-right: 3px;
+              }
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 10px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .product {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_ipad__fioegapg12qi_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product2 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: center;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product3 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_ipadpro__ch217v9v7no2_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: center;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .footer {
+          width: 100%;
+          height: auto;
+          background-color: #f5f5f7;
+          > div.footer2responsive {
+            display: none;
+          }
+
+          > div.firstfooter {
+            width: 70%;
+            margin: 0 auto;
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: gray;
+            }
+          }
+          > div.footer2 {
+            width: 70%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            > div {
+              width: auto;
+              height: auto;
+              text-align: center;
+              > h4 {
+                font-size: 13px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin-top: 15px;
+                > a {
+                  text-decoration: none;
+                  color: rgba(31, 29, 29, 0.921);
+                  &:hover {
+                    border-bottom: 1px solid rgba(49, 48, 48, 0.921);
+                  }
+                }
+              }
+              > ul {
+                list-style: none;
+                width: inherit;
+                height: inherit;
+                > li {
+                  width: auto;
+                  height: auto;
+                  padding-top: 10px;
+                  > a {
+                    width: auto;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 13px;
+                    height: inherit;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    color: black;
+                    &:hover {
+                      border-bottom: 1px solid black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          > div.lastfooter {
+            width: 70%;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgb(20, 20, 20);
+              > a {
+                text-decoration: none;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+              }
+            }
+          }
+        }
+        .end {
+          width: 70%;
+          height: auto;
+          margin: 0 auto;
+          text-align: center;
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+          }
+        }
+      }
+      @for $i from 1 through 12 {
+        .col-xxl-#{$i} {
+          width: 8.333333% * $i;
+          padding: 20px;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+  @include media(1200px) {
+    @media screen and (min-width: 1200px) and (max-width: 1400px) {
+      .wrapper {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        .mobilemenu {
+          display: none;
+        }
+        .menu {
+          width: 100%;
+          height: 50px;
+          background-color: black;
+          position: fixed;
+          left: 0;
+          top: 0;
+          > nav {
+            width: inherit;
+            height: inherit;
+            > ul {
+              list-style: none;
+              display: flex;
+              justify-content: center;
+              width: inherit;
+              height: inherit;
+              gap: 0 2px;
+              > li {
+                width: auto;
+                height: inherit;
+                > a {
+                  width: auto;
+                  display: block;
+                  padding: 0 20px;
+                  height: inherit;
+                  line-height: 50px;
+                  text-transform: capitalize;
+                  transition: 500ms;
+                  color: white;
+                  &:hover {
+                    background-color: rgba(128, 128, 128, 0.349);
+                  }
+                }
+              }
+            }
+          }
+        }
+        .iphone14 {
+          width: 100%;
+          height: 636px;
+          background-image: url("../images/hero_iphone14__fjmsqstr1ceq_large.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 80px 0 0 0;
+          justify-content: center;
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            > h2 {
+              font-weight: 300;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(0, 0, 0, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 20px;
+              padding: 0 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .gift {
+          width: 100%;
+          height: 537px;
+          background-image: url("../images/hero_endframe__8xosbwdvpaqe_large.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 50px 0 0 0;
+          justify-content: center;
+          align-items: flex-end;
+
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 60px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: center;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .card {
+          width: 100%;
+          height: 637px;
+          background-image: url("../images/hero__dvsxv8smkkgi_large.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          box-sizing: border-box;
+          display: flex;
+          padding: 20px 0 0 0;
+          justify-content: center;
+
+          > div {
+            width: auto;
+
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+              margin-top: 40px;
+              > i {
+                padding-right: 3px;
+              }
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 10px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .product {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_ipad__fioegapg12qi_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product2 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: center;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product3 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_ipadpro__ch217v9v7no2_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 10px;
+                box-sizing: border-box;
+                justify-content: space-between;
+
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .footer {
+          width: 100%;
+          height: auto;
+          background-color: #f5f5f7;
+          > div.footer2responsive {
+            display: none;
+          }
+
+          > div.firstfooter {
+            width: 70%;
+            margin: 0 auto;
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: gray;
+            }
+          }
+          > div.footer2 {
+            width: 70%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            gap: 100px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            > div {
+              width: auto;
+              height: auto;
+              text-align: center;
+              > h4 {
+                font-size: 13px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin-top: 15px;
+                > a {
+                  text-decoration: none;
+                  color: rgba(31, 29, 29, 0.921);
+                  &:hover {
+                    border-bottom: 1px solid rgba(49, 48, 48, 0.921);
+                  }
+                }
+              }
+              > ul {
+                list-style: none;
+                width: inherit;
+                height: inherit;
+                > li {
+                  width: auto;
+                  height: auto;
+                  padding-top: 10px;
+                  > a {
+                    width: auto;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 13px;
+                    height: inherit;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    color: black;
+                    &:hover {
+                      border-bottom: 1px solid black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          > div.lastfooter {
+            width: 70%;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgb(20, 20, 20);
+              > a {
+                text-decoration: none;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+              }
+            }
+          }
+        }
+        .end {
+          width: 70%;
+          height: auto;
+          margin: 0 auto;
+          text-align: center;
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+          }
+        }
+      }
+      @for $i from 1 through 12 {
+        .col-xl-#{$i} {
+          width: 8.333333% * $i;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+  @include media(992px) {
+    @media screen and (min-width: 992px) and (max-width: 1200px) {
+      .wrapper {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        .mobilemenu {
+          display: none;
+        }
+        .menu {
+          width: 100%;
+          height: 50px;
+          background-color: black;
+          position: fixed;
+          left: 0;
+          top: 0;
+          > nav {
+            width: inherit;
+            height: inherit;
+            > ul {
+              list-style: none;
+              display: flex;
+              justify-content: center;
+              width: inherit;
+              height: inherit;
+              gap: 0 2px;
+              > li {
+                width: auto;
+                height: inherit;
+                > a {
+                  width: auto;
+                  display: block;
+                  padding: 0 10px;
+                  height: inherit;
+                  line-height: 50px;
+                  text-transform: capitalize;
+                  transition: 500ms;
+                  color: white;
+                  &:hover {
+                    background-color: rgba(128, 128, 128, 0.349);
+                  }
+                }
+              }
+            }
+          }
+        }
+        .iphone14 {
+          width: 100%;
+          height: 636px;
+          background-image: url("../images/hero_iphone14__fjmsqstr1ceq_large.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 80px 0 0 0;
+          justify-content: center;
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            > h2 {
+              font-weight: 300;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(0, 0, 0, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 20px;
+              padding: 0 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .gift {
+          width: 100%;
+          height: 537px;
+          background-image: url("../images/hero_endframe__8xosbwdvpaqe_large.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 50px 0 0 0;
+          justify-content: center;
+          align-items: flex-end;
+
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 60px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: center;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .card {
+          width: 100%;
+          height: 637px;
+          background-image: url("../images/hero__dvsxv8smkkgi_large.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          box-sizing: border-box;
+          display: flex;
+          padding: 20px 0 0 0;
+          justify-content: center;
+
+          > div {
+            width: auto;
+
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+              margin-top: 40px;
+              > i {
+                padding-right: 3px;
+              }
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 10px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .product {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 590px;
+            background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 590px;
+            background-image: url(../images/promo_ipad__fioegapg12qi_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product2 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: center;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product3 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 600px;
+            background-image: url(../images/promo_ipadpro__ch217v9v7no2_large.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 10px;
+                box-sizing: border-box;
+                justify-content: space-between;
+
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .footer {
+          width: 100%;
+          height: auto;
+          background-color: #f5f5f7;
+          > div.footer2responsive {
+            display: none;
+          }
+
+          > div.firstfooter {
+            width: 90%;
+            margin: 0 auto;
+
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: gray;
+            }
+          }
+          > div.footer2 {
+            width: 90%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            gap: 90px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            > div {
+              width: auto;
+              height: auto;
+              text-align: center;
+              > h4 {
+                font-size: 13px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin-top: 15px;
+                > a {
+                  text-decoration: none;
+                  color: rgba(31, 29, 29, 0.921);
+                  &:hover {
+                    border-bottom: 1px solid rgba(49, 48, 48, 0.921);
+                  }
+                }
+              }
+              > ul {
+                list-style: none;
+                width: inherit;
+                height: inherit;
+                > li {
+                  width: auto;
+                  height: auto;
+                  padding-top: 5px;
+                  > a {
+                    width: auto;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 13px;
+                    height: inherit;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    color: black;
+                    &:hover {
+                      border-bottom: 1px solid black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          > div.lastfooter {
+            width: 70%;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgb(20, 20, 20);
+              > a {
+                text-decoration: none;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+              }
+            }
+          }
+        }
+        .end {
+          width: 70%;
+          height: auto;
+          margin: 0 auto;
+          text-align: center;
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+          }
+        }
+      }
+      @for $i from 1 through 12 {
+        .col-lg-#{$i} {
+          width: 8.333333 * $i;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+  @include media(768px) {
+    @media screen and (min-width: 768px) and (max-width: 992px) {
+      .wrapper {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        .menu {
+          display: none;
+        }
+        .mobilemenu {
+          width: 100%;
+          height: 50px;
+          background-color: black;
+          display: flex;
+          flex-flow: row wrap;
+          column-gap: 2px;
+          position: relative;
+
+          .icon1 {
+            flex: 1 0 0;
+            width: max-content;
+            height: max-content;
+
+            > a {
+              color: rgba(255, 255, 255, 0.555);
+              font-size: large;
+              padding: 10px 17px;
+              line-height: 50px;
+            }
+          }
+          .icon2 {
+            flex: 1 0 0;
+            text-align: center;
+            width: max-content;
+            height: max-content;
+            > a {
+              color: rgba(255, 255, 255, 0.555);
+              font-size: large;
+              padding: 10px 17px;
+              line-height: 50px;
+            }
+          }
+          .icon3 {
+            flex: 1 0 0;
+            width: max-content;
+            height: max-content;
+            text-align: right;
+            > a {
+              color: rgba(255, 255, 255, 0.555);
+              font-size: large;
+              padding: 10px 17px;
+              line-height: 50px;
+            }
+          }
+          nav {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            overflow: hidden;
+            box-sizing: border-box;
+            padding: 10px;
+            position: absolute;
+            left: 0;
+            top: 50px;
+            display: none;
+
+            > ul li {
+              border-top: 1px solid rgba(228, 220, 245, 0.263);
+              padding-left: 10px;
+            }
+          }
+        }
+        .iphone14 {
+          width: 100%;
+          height: 536px;
+          background-image: url("../images/iphone14\ small.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 50px 0 0 0;
+          justify-content: center;
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            > h2 {
+              font-weight: 300;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(0, 0, 0, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 20px;
+              padding: 0 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .gift {
+          width: 100%;
+          height: 537px;
+          background-image: url("../images/gift\ small.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 50px 0 0 0;
+          justify-content: center;
+          align-items: flex-end;
+
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 60px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: center;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .card {
+          width: 100%;
+          height: 737px;
+          background-image: url("../images/hero__dvsxv8smkkgi_mediumtall.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          box-sizing: border-box;
+          display: flex;
+          padding: 20px 0 0 0;
+          justify-content: center;
+
+          > div {
+            width: auto;
+
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+              margin-top: 40px;
+              > i {
+                padding-right: 3px;
+              }
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 10px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .product {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 460px;
+            background-image: url(../images/iphone14mediumproduct.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 8px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 20px;
+
+              > h2 {
+                font-size: 30px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  padding-right: 20px;
+
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 460px;
+            background-image: url(../images/ipadmediumproduct.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 20px;
+              > h2 {
+                font-size: 30px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product2 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 500px;
+            background-image: url(../images/airpodsmedium.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: center;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 500px;
+            background-image: url(../images/applewatchmedium.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product3 {
+          width: 100%;
+          height: auto;
+          display: flex;
+          > div.left {
+            width: 50%;
+            height: 500px;
+            background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_medium.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 35px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 50%;
+            height: 500px;
+            background-image: url(../images/promo_ipadpro__ch217v9v7no2_medium.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-left: 10px;
+            margin-right: 10px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 35px;
+
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 10px;
+                box-sizing: border-box;
+                justify-content: space-between;
+
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .footer {
+          width: 100%;
+          height: auto;
+          background-color: #f5f5f7;
+          margin-top: 10px;
+          > div.footer2responsive {
+            display: none;
+          }
+
+          > div.firstfooter {
+            width: 95%;
+            margin: 0 auto;
+
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: gray;
+            }
+          }
+          > div.footer2 {
+            width: 100%;
+            height: auto;
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin: 0 auto;
+            margin-bottom: 50px;
+            > div {
+              width: auto;
+              height: auto;
+              text-align: center;
+              > h4 {
+                font-size: 13px;
+                font-family: Arial, Helvetica, sans-serif;
+                text-align: center;
+                margin-top: 15px;
+                > a {
+                  text-decoration: none;
+                  color: rgba(31, 29, 29, 0.921);
+                  &:hover {
+                    border-bottom: 1px solid rgba(49, 48, 48, 0.921);
+                  }
+                }
+              }
+              > ul {
+                list-style: none;
+                width: inherit;
+                height: inherit;
+                > li {
+                  width: auto;
+                  height: auto;
+                  padding-top: 5px;
+                  > a {
+                    width: auto;
+                    font-family: Arial, Helvetica, sans-serif;
+                    font-size: 13px;
+                    height: inherit;
+                    text-decoration: none;
+                    text-transform: capitalize;
+                    color: black;
+                    &:hover {
+                      border-bottom: 1px solid black;
+                    }
+                  }
+                }
+              }
+            }
+          }
+          > div.lastfooter {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgb(20, 20, 20);
+              > a {
+                text-decoration: none;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+              }
+            }
+          }
+        }
+        .end {
+          width: 70%;
+          height: auto;
+          margin: 0 auto;
+          text-align: center;
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+          }
+        }
+      }
+      @for $i from 1 through 12 {
+        .col-md-#{$i} {
+          width: 8.333333 * $i;
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+  @include media(576px) {
+    @media screen and (min-width: 576px) and (max-width: 768px) {
+      .wrapper {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        .menu {
+          display: none;
+        }
+        .mobilemenu {
+          width: 100%;
+          height: 50px;
+          background-color: black;
+          display: flex;
+          flex-flow: row wrap;
+          column-gap: 2px;
+          position: relative;
+
+          .icon1 {
+            flex: 1 0 0;
+            width: max-content;
+            height: max-content;
+
+            > a {
+              color: rgba(255, 255, 255, 0.555);
+              font-size: large;
+              padding: 10px 17px;
+              line-height: 50px;
+            }
+          }
+          .icon2 {
+            flex: 1 0 0;
+            text-align: center;
+            width: max-content;
+            height: max-content;
+            > a {
+              color: rgba(255, 255, 255, 0.555);
+              font-size: large;
+              padding: 10px 17px;
+              line-height: 50px;
+            }
+          }
+          .icon3 {
+            flex: 1 0 0;
+            width: max-content;
+            height: max-content;
+            text-align: right;
+            > a {
+              color: rgba(255, 255, 255, 0.555);
+              font-size: large;
+              padding: 10px 17px;
+              line-height: 50px;
+            }
+          }
+          nav {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            overflow: hidden;
+            box-sizing: border-box;
+            padding: 10px;
+            position: absolute;
+            left: 0;
+            top: 50px;
+            display: none;
+
+            > ul li {
+              border-top: 1px solid rgba(228, 220, 245, 0.263);
+              padding-left: 10px;
+            }
+          }
+        }
+        .iphone14 {
+          width: 100%;
+          height: 500px;
+          background-image: url("../images/iphone14\ small.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 50px 0 0 0;
+          justify-content: center;
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            > h2 {
+              font-weight: 300;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(0, 0, 0, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 20px;
+              padding: 0 10px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .gift {
+          width: 100%;
+          height: 490px;
+          background-image: url("../images/gift\ xsmall.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 90px 0 0 0;
+          justify-content: center;
+          align-items: flex-end;
+
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 60px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: center;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                margin-bottom: 30px;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .card {
+          width: 100%;
+          height: 537px;
+          background-image: url("../images/card\ small.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          box-sizing: border-box;
+          display: flex;
+          padding: 20px 0 0 0;
+          justify-content: center;
+
+          > div {
+            width: auto;
+
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+              margin-top: 40px;
+              > i {
+                padding-right: 3px;
+              }
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 10px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .product {
+          width: 100%;
+          height: auto;
+
+          > div.left {
+            width: 100%;
+            height: 460px;
+            background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_small.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 20px;
+
+              > h2 {
+                font-size: 30px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  padding-right: 20px;
+
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 100%;
+            height: 460px;
+            background-image: url(../images/promo_ipad__fioegapg12qi_small.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 20px;
+              > h2 {
+                font-size: 30px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product2 {
+          width: 100%;
+          height: auto;
+
+          > div.left {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/airpodsmall.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: center;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/applewatchsmall.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product3 {
+          width: 100%;
+          height: auto;
+
+          > div.left {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/promo_ipadpro__ch217v9v7no2_small.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 20px;
+
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 10px;
+                box-sizing: border-box;
+                justify-content: space-between;
+
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .footer {
+          width: 100%;
+          height: auto;
+          background-color: #f5f5f7;
+
+          > div.firstfooter {
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 10px;
+
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: gray;
+            }
+          }
+        > div.footer2{display: none;}
+        >div.footer2responsive{
+          width: 95%;
+          height: auto;
+          margin: 0 auto;
+           > ul {
+            list-style: none;
+            width: inherit;
+            height: inherit;
+            > li {
+              width: auto;
+              height: auto;
+              padding-top: 5px;
+              border-bottom: 1px solid rgba(228, 220, 245, 0.263);
+              padding-left: 10px;
+              > a {
+                width: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                height: inherit;
+                text-decoration: none;
+                text-transform: capitalize;
+                color: rgb(89, 89, 89);
+                &:hover {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+          > div.lastfooter {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgb(20, 20, 20);
+              > a {
+                text-decoration: none;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+              }
+            }
+          }
+        }
+        .end {
+          width: 70%;
+          height: auto;
+          margin: 0 auto;
+          text-align: center;
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+          }
+        }
+      }
+
+      @for $i from 1 through 12 {
+        .col-sm-#{$i} {
+          width: 8.333333 * $i;
+
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+  @include media(575px) {
+    @media screen and (max-width: 576px) {
+      .wrapper {
+        width: 100%;
+        height: auto;
+        box-sizing: border-box;
+        .menu {
+          display: none;
+        }
+        .mobilemenu {
+          width: 100%;
+          height: 50px;
+          background-color: black;
+          display: flex;
+          flex-flow: row wrap;
+          column-gap: 2px;
+          position: relative;
+
+          .icon1 {
+            flex: 1 0 0;
+            width: max-content;
+            height: max-content;
+
+            > a {
+              color: rgba(255, 255, 255, 0.555);
+              font-size: large;
+              padding: 10px 17px;
+              line-height: 50px;
+            }
+          }
+          .icon2 {
+            flex: 1 0 0;
+            text-align: center;
+            width: max-content;
+            height: max-content;
+            > a {
+              color: rgba(255, 255, 255, 0.555);
+              font-size: large;
+              padding: 10px 17px;
+              line-height: 50px;
+            }
+          }
+          .icon3 {
+            flex: 1 0 0;
+            width: max-content;
+            height: max-content;
+            text-align: right;
+            > a {
+              color: rgba(255, 255, 255, 0.555);
+              font-size: large;
+              padding: 10px 17px;
+              line-height: 50px;
+            }
+          }
+          nav {
+            width: 100%;
+            height: auto;
+            background-color: black;
+            overflow: hidden;
+            box-sizing: border-box;
+            padding: 10px;
+            position: absolute;
+            left: 0;
+            top: 50px;
+            display: none;
+
+            > ul li {
+              border-top: 1px solid rgba(228, 220, 245, 0.263);
+              padding-left: 10px;
+            }
+          }
+        }
+        .iphone14 {
+          width: 100%;
+          height: 500px;
+          background-image: url("../images/iphone14\ small.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 20px 0 0 0;
+          justify-content: center;
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+            }
+            > h2 {
+              font-weight: 300;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(0, 0, 0, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 20px;
+              padding: 0 10px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .gift {
+          width: 100%;
+          height: 490px;
+          background-image: url("../images/gift\ xsmall.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          cursor: pointer;
+          display: flex;
+          padding: 90px 0 0 0;
+          justify-content: center;
+          align-items: flex-end;
+
+          > div {
+            width: auto;
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 60px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: center;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .card {
+          width: 100%;
+          height: 537px;
+          background-image: url("../images/card\ small.jpg");
+          background-repeat: no-repeat;
+          background-position: center center;
+          box-sizing: border-box;
+          display: flex;
+          padding: 20px 0 0 0;
+          justify-content: center;
+
+          > div {
+            width: auto;
+
+            > h1 {
+              font-size: 50px;
+              font-weight: 600;
+              font-family: Arial, Helvetica, sans-serif;
+              color: white;
+              text-align: center;
+              margin-top: 40px;
+              > i {
+                padding-right: 3px;
+              }
+            }
+            > p {
+              font-weight: 300;
+              font-size: 20px;
+              text-align: center;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgba(255, 255, 255, 0.848);
+            }
+            > div {
+              display: flex;
+              margin-top: 10px;
+              padding: 20px 20px;
+              box-sizing: border-box;
+              justify-content: space-between;
+              > a {
+                text-transform: capitalize;
+                text-decoration: none;
+                font-size: 20px;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+                > i {
+                  padding-left: 3px;
+                }
+              }
+            }
+          }
+        }
+        .product {
+          width: 100%;
+          height: auto;
+
+          > div.left {
+            width: 100%;
+            height: 460px;
+            background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_small.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 20px;
+
+              > h2 {
+                font-size: 30px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(255, 255, 255, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  padding-right: 20px;
+
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 100%;
+            height: 460px;
+            background-image: url(../images/promo_ipad__fioegapg12qi_small.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 20px;
+              > h2 {
+                font-size: 30px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product2 {
+          width: 100%;
+          height: auto;
+
+          > div.left {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/airpodsmall.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 30px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: center;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/applewatchsmall.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(0, 0, 0, 0.848);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .product3 {
+          width: 100%;
+          height: auto;
+
+          > div.left {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 50px;
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+              > h4 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgba(222, 0, 0, 0.848);
+              }
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 20px;
+                box-sizing: border-box;
+                justify-content: space-between;
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+          > div.right {
+            width: 100%;
+            height: 500px;
+            background-image: url(../images/promo_ipadpro__ch217v9v7no2_small.jpg);
+            background-repeat: no-repeat;
+            background-position: center center;
+            display: flex;
+            justify-content: center;
+            margin-top: 15px;
+
+            cursor: pointer;
+            > div {
+              width: auto;
+              padding-top: 20px;
+
+              > h2 {
+                font-size: 50px;
+                font-weight: 600;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+                text-align: center;
+              }
+              > h3 {
+                font-weight: 300;
+                text-align: center;
+                font-family: Arial, Helvetica, sans-serif;
+                color: rgb(255, 255, 255);
+              }
+
+              > div {
+                display: flex;
+                margin-top: 20px;
+                padding: 0 10px;
+                box-sizing: border-box;
+                justify-content: space-between;
+
+                > a {
+                  text-transform: capitalize;
+                  text-decoration: none;
+                  font-size: 20px;
+                  color: #06c;
+                  font-family: Arial, Helvetica, sans-serif;
+
+                  &:hover {
+                    border-bottom: 2px solid #06c;
+                  }
+                  > i {
+                    padding-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+        .footer {
+          width: 100%;
+          height: auto;
+          background-color: #f5f5f7;
+          
+
+          > div.firstfooter {
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 10px;
+            
+
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: gray;
+            }
+          }
+        > div.footer2{display: none;}
+        >div.footer2responsive{
+          width: 95%;
+          height: auto;
+          margin: 0 auto;
+           > ul {
+            list-style: none;
+            width: inherit;
+            height: inherit;
+            > li {
+              width: auto;
+              height: auto;
+              padding-top: 5px;
+              border-bottom: 1px solid rgba(228, 220, 245, 0.263);
+              padding-left: 10px;
+              > a {
+                width: auto;
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 13px;
+                height: inherit;
+                text-decoration: none;
+                text-transform: capitalize;
+                color: rgb(89, 89, 89);
+                &:hover {
+                  color: black;
+                }
+              }
+            }
+          }
+        }
+          > div.lastfooter {
+            width: 100%;
+            height: auto;
+            text-align: center;
+            margin: 0 auto;
+            margin-top: 10px;
+            > p {
+              font-size: 15px;
+              font-family: Arial, Helvetica, sans-serif;
+              color: rgb(20, 20, 20);
+              > a {
+                text-decoration: none;
+                color: #06c;
+                font-family: Arial, Helvetica, sans-serif;
+                &:hover {
+                  border-bottom: 2px solid #06c;
+                }
+              }
+            }
+          }
+        }
+        .end {
+          width: 70%;
+          height: auto;
+          margin: 0 auto;
+          text-align: center;
+          > p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 13px;
+          }
+        }
+      }
+      @for $i from 1 through 12 {
+        .col-#{$i} {
+          width: 8.333333 * $i;
+
+          box-sizing: border-box;
+        }
+      }
+    }
+  }
+}

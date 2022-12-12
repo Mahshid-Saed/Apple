@@ -1,0 +1,3956 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 1400px) {
+  body .wrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  body .wrapper .mobilemenu {
+    display: none;
+  }
+  body .wrapper .menu {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  body .wrapper .menu > nav {
+    width: inherit;
+    height: inherit;
+  }
+  body .wrapper .menu > nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    gap: 0 2px;
+  }
+  body .wrapper .menu > nav > ul > li {
+    width: auto;
+    height: inherit;
+  }
+  body .wrapper .menu > nav > ul > li > a {
+    width: auto;
+    display: block;
+    padding: 0 20px;
+    height: inherit;
+    line-height: 50px;
+    text-transform: capitalize;
+    transition: 500ms;
+    color: white;
+  }
+  body .wrapper .menu > nav > ul > li > a:hover {
+    background-color: rgba(128, 128, 128, 0.349);
+  }
+  body .wrapper .iphone14 {
+    width: 100%;
+    height: 636px;
+    background-image: url("../images/hero_iphone14__fjmsqstr1ceq_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 80px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .iphone14 > div {
+    width: auto;
+  }
+  body .wrapper .iphone14 > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .iphone14 > div > h2 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .iphone14 > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .iphone14 > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .iphone14 > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .iphone14 > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .gift {
+    width: 100%;
+    height: 537px;
+    background-image: url("../images/hero_endframe__8xosbwdvpaqe_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 50px 0 0 0;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  body .wrapper .gift > div {
+    width: auto;
+  }
+  body .wrapper .gift > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .gift > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .gift > div > div {
+    display: flex;
+    margin-top: 60px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .gift > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .gift > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .card {
+    width: 100%;
+    height: 637px;
+    background-image: url("../images/hero__dvsxv8smkkgi_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    padding: 20px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .card > div {
+    width: auto;
+  }
+  body .wrapper .card > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+  body .wrapper .card > div > h1 > i {
+    padding-right: 3px;
+  }
+  body .wrapper .card > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .card > div > div {
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .card > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .card > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .card > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product > div.left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.left > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .product > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .product > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product > div.right {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_ipad__fioegapg12qi_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.right > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product2 > div.left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.left > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product2 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .product2 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 > div.right {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.right > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product2 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product2 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product3 > div.left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.left > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product3 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.left > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product3 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 > div.right {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_ipadpro__ch217v9v7no2_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.right > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product3 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .product3 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .footer {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f7;
+  }
+  body .wrapper .footer > div.footer2responsive {
+    display: none;
+  }
+  body .wrapper .footer > div.firstfooter {
+    width: 70%;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.firstfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+  }
+  body .wrapper .footer > div.footer2 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  body .wrapper .footer > div.footer2 > div {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  body .wrapper .footer > div.footer2 > div > h4 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+  }
+  body .wrapper .footer > div.footer2 > div > h4 > a {
+    text-decoration: none;
+    color: rgba(31, 29, 29, 0.921);
+  }
+  body .wrapper .footer > div.footer2 > div > h4 > a:hover {
+    border-bottom: 1px solid rgba(49, 48, 48, 0.921);
+  }
+  body .wrapper .footer > div.footer2 > div > ul {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li > a {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li > a:hover {
+    border-bottom: 1px solid black;
+  }
+  body .wrapper .footer > div.lastfooter {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.lastfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+  }
+  body .wrapper .footer > div.lastfooter > p > a {
+    text-decoration: none;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .footer > div.lastfooter > p > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .end {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body .wrapper .end > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  body .col-xxl-1 {
+    width: 8.33333%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-2 {
+    width: 16.66667%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-3 {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-4 {
+    width: 33.33333%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-5 {
+    width: 41.66666%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-6 {
+    width: 50%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-7 {
+    width: 58.33333%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-8 {
+    width: 66.66666%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-9 {
+    width: 75%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-10 {
+    width: 83.33333%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-11 {
+    width: 91.66666%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  body .col-xxl-12 {
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  body .wrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  body .wrapper .mobilemenu {
+    display: none;
+  }
+  body .wrapper .menu {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  body .wrapper .menu > nav {
+    width: inherit;
+    height: inherit;
+  }
+  body .wrapper .menu > nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    gap: 0 2px;
+  }
+  body .wrapper .menu > nav > ul > li {
+    width: auto;
+    height: inherit;
+  }
+  body .wrapper .menu > nav > ul > li > a {
+    width: auto;
+    display: block;
+    padding: 0 20px;
+    height: inherit;
+    line-height: 50px;
+    text-transform: capitalize;
+    transition: 500ms;
+    color: white;
+  }
+  body .wrapper .menu > nav > ul > li > a:hover {
+    background-color: rgba(128, 128, 128, 0.349);
+  }
+  body .wrapper .iphone14 {
+    width: 100%;
+    height: 636px;
+    background-image: url("../images/hero_iphone14__fjmsqstr1ceq_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 80px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .iphone14 > div {
+    width: auto;
+  }
+  body .wrapper .iphone14 > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .iphone14 > div > h2 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .iphone14 > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .iphone14 > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+  }
+  body .wrapper .iphone14 > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .iphone14 > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .gift {
+    width: 100%;
+    height: 537px;
+    background-image: url("../images/hero_endframe__8xosbwdvpaqe_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 50px 0 0 0;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  body .wrapper .gift > div {
+    width: auto;
+  }
+  body .wrapper .gift > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .gift > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .gift > div > div {
+    display: flex;
+    margin-top: 60px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .gift > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .gift > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .gift > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .card {
+    width: 100%;
+    height: 637px;
+    background-image: url("../images/hero__dvsxv8smkkgi_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .card > div {
+    width: auto;
+  }
+  body .wrapper .card > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+  body .wrapper .card > div > h1 > i {
+    padding-right: 3px;
+  }
+  body .wrapper .card > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .card > div > div {
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .card > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .card > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .card > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product > div.left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.left > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .product > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .product > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product > div.right {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_ipad__fioegapg12qi_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.right > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product2 > div.left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.left > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product2 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .product2 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 > div.right {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.right > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product2 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product2 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product3 > div.left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.left > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product3 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.left > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product3 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 > div.right {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_ipadpro__ch217v9v7no2_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.right > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product3 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .footer {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f7;
+  }
+  body .wrapper .footer > div.footer2responsive {
+    display: none;
+  }
+  body .wrapper .footer > div.firstfooter {
+    width: 70%;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.firstfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+  }
+  body .wrapper .footer > div.footer2 {
+    width: 70%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 100px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  body .wrapper .footer > div.footer2 > div {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  body .wrapper .footer > div.footer2 > div > h4 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+  }
+  body .wrapper .footer > div.footer2 > div > h4 > a {
+    text-decoration: none;
+    color: rgba(31, 29, 29, 0.921);
+  }
+  body .wrapper .footer > div.footer2 > div > h4 > a:hover {
+    border-bottom: 1px solid rgba(49, 48, 48, 0.921);
+  }
+  body .wrapper .footer > div.footer2 > div > ul {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li {
+    width: auto;
+    height: auto;
+    padding-top: 10px;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li > a {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li > a:hover {
+    border-bottom: 1px solid black;
+  }
+  body .wrapper .footer > div.lastfooter {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.lastfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+  }
+  body .wrapper .footer > div.lastfooter > p > a {
+    text-decoration: none;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .footer > div.lastfooter > p > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .end {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body .wrapper .end > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  body .col-xl-1 {
+    width: 8.33333%;
+    box-sizing: border-box;
+  }
+  body .col-xl-2 {
+    width: 16.66667%;
+    box-sizing: border-box;
+  }
+  body .col-xl-3 {
+    width: 25%;
+    box-sizing: border-box;
+  }
+  body .col-xl-4 {
+    width: 33.33333%;
+    box-sizing: border-box;
+  }
+  body .col-xl-5 {
+    width: 41.66666%;
+    box-sizing: border-box;
+  }
+  body .col-xl-6 {
+    width: 50%;
+    box-sizing: border-box;
+  }
+  body .col-xl-7 {
+    width: 58.33333%;
+    box-sizing: border-box;
+  }
+  body .col-xl-8 {
+    width: 66.66666%;
+    box-sizing: border-box;
+  }
+  body .col-xl-9 {
+    width: 75%;
+    box-sizing: border-box;
+  }
+  body .col-xl-10 {
+    width: 83.33333%;
+    box-sizing: border-box;
+  }
+  body .col-xl-11 {
+    width: 91.66666%;
+    box-sizing: border-box;
+  }
+  body .col-xl-12 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  body .wrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  body .wrapper .mobilemenu {
+    display: none;
+  }
+  body .wrapper .menu {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  body .wrapper .menu > nav {
+    width: inherit;
+    height: inherit;
+  }
+  body .wrapper .menu > nav > ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    width: inherit;
+    height: inherit;
+    gap: 0 2px;
+  }
+  body .wrapper .menu > nav > ul > li {
+    width: auto;
+    height: inherit;
+  }
+  body .wrapper .menu > nav > ul > li > a {
+    width: auto;
+    display: block;
+    padding: 0 10px;
+    height: inherit;
+    line-height: 50px;
+    text-transform: capitalize;
+    transition: 500ms;
+    color: white;
+  }
+  body .wrapper .menu > nav > ul > li > a:hover {
+    background-color: rgba(128, 128, 128, 0.349);
+  }
+  body .wrapper .iphone14 {
+    width: 100%;
+    height: 636px;
+    background-image: url("../images/hero_iphone14__fjmsqstr1ceq_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 80px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .iphone14 > div {
+    width: auto;
+  }
+  body .wrapper .iphone14 > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .iphone14 > div > h2 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .iphone14 > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .iphone14 > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+  }
+  body .wrapper .iphone14 > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .iphone14 > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .gift {
+    width: 100%;
+    height: 537px;
+    background-image: url("../images/hero_endframe__8xosbwdvpaqe_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 50px 0 0 0;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  body .wrapper .gift > div {
+    width: auto;
+  }
+  body .wrapper .gift > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .gift > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .gift > div > div {
+    display: flex;
+    margin-top: 60px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .gift > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .gift > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .gift > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .card {
+    width: 100%;
+    height: 637px;
+    background-image: url("../images/hero__dvsxv8smkkgi_large.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .card > div {
+    width: auto;
+  }
+  body .wrapper .card > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+  body .wrapper .card > div > h1 > i {
+    padding-right: 3px;
+  }
+  body .wrapper .card > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .card > div > div {
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .card > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .card > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .card > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product > div.left {
+    width: 50%;
+    height: 590px;
+    background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.left > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .product > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .product > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product > div.right {
+    width: 50%;
+    height: 590px;
+    background-image: url(../images/promo_ipad__fioegapg12qi_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.right > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product2 > div.left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_airpods_holiday__fqg7rt8b4vma_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.left > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product2 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .product2 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 > div.right {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_apple_watch_ultra__gnsqulvdc4a6_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.right > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product2 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product2 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product3 > div.left {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.left > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product3 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.left > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product3 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 > div.right {
+    width: 50%;
+    height: 600px;
+    background-image: url(../images/promo_ipadpro__ch217v9v7no2_large.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.right > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product3 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .footer {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f7;
+  }
+  body .wrapper .footer > div.footer2responsive {
+    display: none;
+  }
+  body .wrapper .footer > div.firstfooter {
+    width: 90%;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.firstfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+  }
+  body .wrapper .footer > div.footer2 {
+    width: 90%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 90px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  body .wrapper .footer > div.footer2 > div {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  body .wrapper .footer > div.footer2 > div > h4 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+  }
+  body .wrapper .footer > div.footer2 > div > h4 > a {
+    text-decoration: none;
+    color: rgba(31, 29, 29, 0.921);
+  }
+  body .wrapper .footer > div.footer2 > div > h4 > a:hover {
+    border-bottom: 1px solid rgba(49, 48, 48, 0.921);
+  }
+  body .wrapper .footer > div.footer2 > div > ul {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li > a {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li > a:hover {
+    border-bottom: 1px solid black;
+  }
+  body .wrapper .footer > div.lastfooter {
+    width: 70%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.lastfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+  }
+  body .wrapper .footer > div.lastfooter > p > a {
+    text-decoration: none;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .footer > div.lastfooter > p > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .end {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body .wrapper .end > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  body .col-lg-1 {
+    width: 8.33333;
+    box-sizing: border-box;
+  }
+  body .col-lg-2 {
+    width: 16.66667;
+    box-sizing: border-box;
+  }
+  body .col-lg-3 {
+    width: 25;
+    box-sizing: border-box;
+  }
+  body .col-lg-4 {
+    width: 33.33333;
+    box-sizing: border-box;
+  }
+  body .col-lg-5 {
+    width: 41.66666;
+    box-sizing: border-box;
+  }
+  body .col-lg-6 {
+    width: 50;
+    box-sizing: border-box;
+  }
+  body .col-lg-7 {
+    width: 58.33333;
+    box-sizing: border-box;
+  }
+  body .col-lg-8 {
+    width: 66.66666;
+    box-sizing: border-box;
+  }
+  body .col-lg-9 {
+    width: 75;
+    box-sizing: border-box;
+  }
+  body .col-lg-10 {
+    width: 83.33333;
+    box-sizing: border-box;
+  }
+  body .col-lg-11 {
+    width: 91.66666;
+    box-sizing: border-box;
+  }
+  body .col-lg-12 {
+    width: 100;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  body .wrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  body .wrapper .menu {
+    display: none;
+  }
+  body .wrapper .mobilemenu {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 2px;
+    position: relative;
+  }
+  body .wrapper .mobilemenu .icon1 {
+    flex: 1 0 0;
+    width: max-content;
+    height: max-content;
+  }
+  body .wrapper .mobilemenu .icon1 > a {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: large;
+    padding: 10px 17px;
+    line-height: 50px;
+  }
+  body .wrapper .mobilemenu .icon2 {
+    flex: 1 0 0;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+  }
+  body .wrapper .mobilemenu .icon2 > a {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: large;
+    padding: 10px 17px;
+    line-height: 50px;
+  }
+  body .wrapper .mobilemenu .icon3 {
+    flex: 1 0 0;
+    width: max-content;
+    height: max-content;
+    text-align: right;
+  }
+  body .wrapper .mobilemenu .icon3 > a {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: large;
+    padding: 10px 17px;
+    line-height: 50px;
+  }
+  body .wrapper .mobilemenu nav {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+  }
+  body .wrapper .mobilemenu nav > ul li {
+    border-top: 1px solid rgba(228, 220, 245, 0.263);
+    padding-left: 10px;
+  }
+  body .wrapper .iphone14 {
+    width: 100%;
+    height: 536px;
+    background-image: url("../images/iphone14 small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 50px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .iphone14 > div {
+    width: auto;
+  }
+  body .wrapper .iphone14 > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .iphone14 > div > h2 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .iphone14 > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .iphone14 > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+  }
+  body .wrapper .iphone14 > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .iphone14 > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .gift {
+    width: 100%;
+    height: 537px;
+    background-image: url("../images/gift small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 50px 0 0 0;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  body .wrapper .gift > div {
+    width: auto;
+  }
+  body .wrapper .gift > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .gift > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .gift > div > div {
+    display: flex;
+    margin-top: 60px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .gift > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .gift > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .gift > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .card {
+    width: 100%;
+    height: 737px;
+    background-image: url("../images/hero__dvsxv8smkkgi_mediumtall.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .card > div {
+    width: auto;
+  }
+  body .wrapper .card > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+  body .wrapper .card > div > h1 > i {
+    padding-right: 3px;
+  }
+  body .wrapper .card > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .card > div > div {
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .card > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .card > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .card > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product > div.left {
+    width: 50%;
+    height: 460px;
+    background-image: url(../images/iphone14mediumproduct.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 8px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.left > div {
+    width: auto;
+    padding-top: 20px;
+  }
+  body .wrapper .product > div.left > div > h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .product > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+  }
+  body .wrapper .product > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product > div.right {
+    width: 50%;
+    height: 460px;
+    background-image: url(../images/ipadmediumproduct.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.right > div {
+    width: auto;
+    padding-top: 20px;
+  }
+  body .wrapper .product > div.right > div > h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product2 > div.left {
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/airpodsmedium.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.left > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product2 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .product2 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 > div.right {
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/applewatchmedium.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.right > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product2 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product2 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 {
+    width: 100%;
+    height: auto;
+    display: flex;
+  }
+  body .wrapper .product3 > div.left {
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.left > div {
+    width: auto;
+    padding-top: 35px;
+  }
+  body .wrapper .product3 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.left > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product3 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 > div.right {
+    width: 50%;
+    height: 500px;
+    background-image: url(../images/promo_ipadpro__ch217v9v7no2_medium.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.right > div {
+    width: auto;
+    padding-top: 35px;
+  }
+  body .wrapper .product3 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .footer {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f7;
+    margin-top: 10px;
+  }
+  body .wrapper .footer > div.footer2responsive {
+    display: none;
+  }
+  body .wrapper .footer > div.firstfooter {
+    width: 95%;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.firstfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+  }
+  body .wrapper .footer > div.footer2 {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+  }
+  body .wrapper .footer > div.footer2 > div {
+    width: auto;
+    height: auto;
+    text-align: center;
+  }
+  body .wrapper .footer > div.footer2 > div > h4 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+  }
+  body .wrapper .footer > div.footer2 > div > h4 > a {
+    text-decoration: none;
+    color: rgba(31, 29, 29, 0.921);
+  }
+  body .wrapper .footer > div.footer2 > div > h4 > a:hover {
+    border-bottom: 1px solid rgba(49, 48, 48, 0.921);
+  }
+  body .wrapper .footer > div.footer2 > div > ul {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li > a {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: black;
+  }
+  body .wrapper .footer > div.footer2 > div > ul > li > a:hover {
+    border-bottom: 1px solid black;
+  }
+  body .wrapper .footer > div.lastfooter {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.lastfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+  }
+  body .wrapper .footer > div.lastfooter > p > a {
+    text-decoration: none;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .footer > div.lastfooter > p > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .end {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body .wrapper .end > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  body .col-md-1 {
+    width: 8.33333;
+    box-sizing: border-box;
+  }
+  body .col-md-2 {
+    width: 16.66667;
+    box-sizing: border-box;
+  }
+  body .col-md-3 {
+    width: 25;
+    box-sizing: border-box;
+  }
+  body .col-md-4 {
+    width: 33.33333;
+    box-sizing: border-box;
+  }
+  body .col-md-5 {
+    width: 41.66666;
+    box-sizing: border-box;
+  }
+  body .col-md-6 {
+    width: 50;
+    box-sizing: border-box;
+  }
+  body .col-md-7 {
+    width: 58.33333;
+    box-sizing: border-box;
+  }
+  body .col-md-8 {
+    width: 66.66666;
+    box-sizing: border-box;
+  }
+  body .col-md-9 {
+    width: 75;
+    box-sizing: border-box;
+  }
+  body .col-md-10 {
+    width: 83.33333;
+    box-sizing: border-box;
+  }
+  body .col-md-11 {
+    width: 91.66666;
+    box-sizing: border-box;
+  }
+  body .col-md-12 {
+    width: 100;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  body .wrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  body .wrapper .menu {
+    display: none;
+  }
+  body .wrapper .mobilemenu {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 2px;
+    position: relative;
+  }
+  body .wrapper .mobilemenu .icon1 {
+    flex: 1 0 0;
+    width: max-content;
+    height: max-content;
+  }
+  body .wrapper .mobilemenu .icon1 > a {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: large;
+    padding: 10px 17px;
+    line-height: 50px;
+  }
+  body .wrapper .mobilemenu .icon2 {
+    flex: 1 0 0;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+  }
+  body .wrapper .mobilemenu .icon2 > a {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: large;
+    padding: 10px 17px;
+    line-height: 50px;
+  }
+  body .wrapper .mobilemenu .icon3 {
+    flex: 1 0 0;
+    width: max-content;
+    height: max-content;
+    text-align: right;
+  }
+  body .wrapper .mobilemenu .icon3 > a {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: large;
+    padding: 10px 17px;
+    line-height: 50px;
+  }
+  body .wrapper .mobilemenu nav {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+  }
+  body .wrapper .mobilemenu nav > ul li {
+    border-top: 1px solid rgba(228, 220, 245, 0.263);
+    padding-left: 10px;
+  }
+  body .wrapper .iphone14 {
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/iphone14 small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 50px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .iphone14 > div {
+    width: auto;
+  }
+  body .wrapper .iphone14 > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .iphone14 > div > h2 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .iphone14 > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .iphone14 > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+  }
+  body .wrapper .iphone14 > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .iphone14 > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .gift {
+    width: 100%;
+    height: 490px;
+    background-image: url("../images/gift xsmall.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 90px 0 0 0;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  body .wrapper .gift > div {
+    width: auto;
+  }
+  body .wrapper .gift > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .gift > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .gift > div > div {
+    display: flex;
+    margin-top: 60px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .gift > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 30px;
+  }
+  body .wrapper .gift > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .gift > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .card {
+    width: 100%;
+    height: 537px;
+    background-image: url("../images/card small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .card > div {
+    width: auto;
+  }
+  body .wrapper .card > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+  body .wrapper .card > div > h1 > i {
+    padding-right: 3px;
+  }
+  body .wrapper .card > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .card > div > div {
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .card > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .card > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .card > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product {
+    width: 100%;
+    height: auto;
+  }
+  body .wrapper .product > div.left {
+    width: 100%;
+    height: 460px;
+    background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.left > div {
+    width: auto;
+    padding-top: 20px;
+  }
+  body .wrapper .product > div.left > div > h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .product > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+  }
+  body .wrapper .product > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product > div.right {
+    width: 100%;
+    height: 460px;
+    background-image: url(../images/promo_ipad__fioegapg12qi_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.right > div {
+    width: auto;
+    padding-top: 20px;
+  }
+  body .wrapper .product > div.right > div > h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 {
+    width: 100%;
+    height: auto;
+  }
+  body .wrapper .product2 > div.left {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/airpodsmall.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.left > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product2 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .product2 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 > div.right {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/applewatchsmall.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.right > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product2 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product2 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 {
+    width: 100%;
+    height: auto;
+  }
+  body .wrapper .product3 > div.left {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.left > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product3 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.left > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product3 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 > div.right {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/promo_ipadpro__ch217v9v7no2_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.right > div {
+    width: auto;
+    padding-top: 20px;
+  }
+  body .wrapper .product3 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .footer {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f7;
+  }
+  body .wrapper .footer > div.firstfooter {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  body .wrapper .footer > div.firstfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+  }
+  body .wrapper .footer > div.footer2 {
+    display: none;
+  }
+  body .wrapper .footer > div.footer2responsive {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.footer2responsive > ul {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+  }
+  body .wrapper .footer > div.footer2responsive > ul > li {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    border-bottom: 1px solid rgba(228, 220, 245, 0.263);
+    padding-left: 10px;
+  }
+  body .wrapper .footer > div.footer2responsive > ul > li > a {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #595959;
+  }
+  body .wrapper .footer > div.footer2responsive > ul > li > a:hover {
+    color: black;
+  }
+  body .wrapper .footer > div.lastfooter {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  body .wrapper .footer > div.lastfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+  }
+  body .wrapper .footer > div.lastfooter > p > a {
+    text-decoration: none;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .footer > div.lastfooter > p > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .end {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body .wrapper .end > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  body .col-sm-1 {
+    width: 8.33333;
+    box-sizing: border-box;
+  }
+  body .col-sm-2 {
+    width: 16.66667;
+    box-sizing: border-box;
+  }
+  body .col-sm-3 {
+    width: 25;
+    box-sizing: border-box;
+  }
+  body .col-sm-4 {
+    width: 33.33333;
+    box-sizing: border-box;
+  }
+  body .col-sm-5 {
+    width: 41.66666;
+    box-sizing: border-box;
+  }
+  body .col-sm-6 {
+    width: 50;
+    box-sizing: border-box;
+  }
+  body .col-sm-7 {
+    width: 58.33333;
+    box-sizing: border-box;
+  }
+  body .col-sm-8 {
+    width: 66.66666;
+    box-sizing: border-box;
+  }
+  body .col-sm-9 {
+    width: 75;
+    box-sizing: border-box;
+  }
+  body .col-sm-10 {
+    width: 83.33333;
+    box-sizing: border-box;
+  }
+  body .col-sm-11 {
+    width: 91.66666;
+    box-sizing: border-box;
+  }
+  body .col-sm-12 {
+    width: 100;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  body .wrapper {
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+  }
+  body .wrapper .menu {
+    display: none;
+  }
+  body .wrapper .mobilemenu {
+    width: 100%;
+    height: 50px;
+    background-color: black;
+    display: flex;
+    flex-flow: row wrap;
+    column-gap: 2px;
+    position: relative;
+  }
+  body .wrapper .mobilemenu .icon1 {
+    flex: 1 0 0;
+    width: max-content;
+    height: max-content;
+  }
+  body .wrapper .mobilemenu .icon1 > a {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: large;
+    padding: 10px 17px;
+    line-height: 50px;
+  }
+  body .wrapper .mobilemenu .icon2 {
+    flex: 1 0 0;
+    text-align: center;
+    width: max-content;
+    height: max-content;
+  }
+  body .wrapper .mobilemenu .icon2 > a {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: large;
+    padding: 10px 17px;
+    line-height: 50px;
+  }
+  body .wrapper .mobilemenu .icon3 {
+    flex: 1 0 0;
+    width: max-content;
+    height: max-content;
+    text-align: right;
+  }
+  body .wrapper .mobilemenu .icon3 > a {
+    color: rgba(255, 255, 255, 0.555);
+    font-size: large;
+    padding: 10px 17px;
+    line-height: 50px;
+  }
+  body .wrapper .mobilemenu nav {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    overflow: hidden;
+    box-sizing: border-box;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    top: 50px;
+    display: none;
+  }
+  body .wrapper .mobilemenu nav > ul li {
+    border-top: 1px solid rgba(228, 220, 245, 0.263);
+    padding-left: 10px;
+  }
+  body .wrapper .iphone14 {
+    width: 100%;
+    height: 500px;
+    background-image: url("../images/iphone14 small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 20px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .iphone14 > div {
+    width: auto;
+  }
+  body .wrapper .iphone14 > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .iphone14 > div > h2 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .iphone14 > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .iphone14 > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+  }
+  body .wrapper .iphone14 > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .iphone14 > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .gift {
+    width: 100%;
+    height: 490px;
+    background-image: url("../images/gift xsmall.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+    display: flex;
+    padding: 90px 0 0 0;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  body .wrapper .gift > div {
+    width: auto;
+  }
+  body .wrapper .gift > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .gift > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .gift > div > div {
+    display: flex;
+    margin-top: 60px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .gift > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .gift > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .gift > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .card {
+    width: 100%;
+    height: 537px;
+    background-image: url("../images/card small.jpg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    box-sizing: border-box;
+    display: flex;
+    padding: 20px 0 0 0;
+    justify-content: center;
+  }
+  body .wrapper .card > div {
+    width: auto;
+  }
+  body .wrapper .card > div > h1 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+  body .wrapper .card > div > h1 > i {
+    padding-right: 3px;
+  }
+  body .wrapper .card > div > p {
+    font-weight: 300;
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .card > div > div {
+    display: flex;
+    margin-top: 10px;
+    padding: 20px 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .card > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .card > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .card > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product {
+    width: 100%;
+    height: auto;
+  }
+  body .wrapper .product > div.left {
+    width: 100%;
+    height: 460px;
+    background-image: url(../images/promo_iphone14pro__4n4twj56fzmu_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.left > div {
+    width: auto;
+    padding-top: 20px;
+  }
+  body .wrapper .product > div.left > div > h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.848);
+  }
+  body .wrapper .product > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-right: 20px;
+  }
+  body .wrapper .product > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product > div.right {
+    width: 100%;
+    height: 460px;
+    background-image: url(../images/promo_ipad__fioegapg12qi_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  body .wrapper .product > div.right > div {
+    width: auto;
+    padding-top: 20px;
+  }
+  body .wrapper .product > div.right > div > h2 {
+    font-size: 30px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 {
+    width: 100%;
+    height: auto;
+  }
+  body .wrapper .product2 > div.left {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/airpodsmall.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.left > div {
+    width: auto;
+    padding-top: 30px;
+  }
+  body .wrapper .product2 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: center;
+  }
+  body .wrapper .product2 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product2 > div.right {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/applewatchsmall.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+  }
+  body .wrapper .product2 > div.right > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product2 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+    text-align: center;
+  }
+  body .wrapper .product2 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(0, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product2 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product2 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product2 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product2 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 {
+    width: 100%;
+    height: auto;
+  }
+  body .wrapper .product3 > div.left {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/promo_apple_watch_series_8__ch7rexplmihe_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.left > div {
+    width: auto;
+    padding-top: 50px;
+  }
+  body .wrapper .product3 > div.left > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.left > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.left > div > h4 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(222, 0, 0, 0.848);
+  }
+  body .wrapper .product3 > div.left > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 20px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.left > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.left > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.left > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .product3 > div.right {
+    width: 100%;
+    height: 500px;
+    background-image: url(../images/promo_ipadpro__ch217v9v7no2_small.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    cursor: pointer;
+  }
+  body .wrapper .product3 > div.right > div {
+    width: auto;
+    padding-top: 20px;
+  }
+  body .wrapper .product3 > div.right > div > h2 {
+    font-size: 50px;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+  }
+  body .wrapper .product3 > div.right > div > h3 {
+    font-weight: 300;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+  }
+  body .wrapper .product3 > div.right > div > div {
+    display: flex;
+    margin-top: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    justify-content: space-between;
+  }
+  body .wrapper .product3 > div.right > div > div > a {
+    text-transform: capitalize;
+    text-decoration: none;
+    font-size: 20px;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .product3 > div.right > div > div > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .product3 > div.right > div > div > a > i {
+    padding-left: 3px;
+  }
+  body .wrapper .footer {
+    width: 100%;
+    height: auto;
+    background-color: #f5f5f7;
+  }
+  body .wrapper .footer > div.firstfooter {
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  body .wrapper .footer > div.firstfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+  }
+  body .wrapper .footer > div.footer2 {
+    display: none;
+  }
+  body .wrapper .footer > div.footer2responsive {
+    width: 95%;
+    height: auto;
+    margin: 0 auto;
+  }
+  body .wrapper .footer > div.footer2responsive > ul {
+    list-style: none;
+    width: inherit;
+    height: inherit;
+  }
+  body .wrapper .footer > div.footer2responsive > ul > li {
+    width: auto;
+    height: auto;
+    padding-top: 5px;
+    border-bottom: 1px solid rgba(228, 220, 245, 0.263);
+    padding-left: 10px;
+  }
+  body .wrapper .footer > div.footer2responsive > ul > li > a {
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+    height: inherit;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #595959;
+  }
+  body .wrapper .footer > div.footer2responsive > ul > li > a:hover {
+    color: black;
+  }
+  body .wrapper .footer > div.lastfooter {
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 10px;
+  }
+  body .wrapper .footer > div.lastfooter > p {
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #141414;
+  }
+  body .wrapper .footer > div.lastfooter > p > a {
+    text-decoration: none;
+    color: #06c;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  body .wrapper .footer > div.lastfooter > p > a:hover {
+    border-bottom: 2px solid #06c;
+  }
+  body .wrapper .end {
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+  body .wrapper .end > p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+  }
+  body .col-1 {
+    width: 8.33333;
+    box-sizing: border-box;
+  }
+  body .col-2 {
+    width: 16.66667;
+    box-sizing: border-box;
+  }
+  body .col-3 {
+    width: 25;
+    box-sizing: border-box;
+  }
+  body .col-4 {
+    width: 33.33333;
+    box-sizing: border-box;
+  }
+  body .col-5 {
+    width: 41.66666;
+    box-sizing: border-box;
+  }
+  body .col-6 {
+    width: 50;
+    box-sizing: border-box;
+  }
+  body .col-7 {
+    width: 58.33333;
+    box-sizing: border-box;
+  }
+  body .col-8 {
+    width: 66.66666;
+    box-sizing: border-box;
+  }
+  body .col-9 {
+    width: 75;
+    box-sizing: border-box;
+  }
+  body .col-10 {
+    width: 83.33333;
+    box-sizing: border-box;
+  }
+  body .col-11 {
+    width: 91.66666;
+    box-sizing: border-box;
+  }
+  body .col-12 {
+    width: 100;
+    box-sizing: border-box;
+  }
+}

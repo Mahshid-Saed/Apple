@@ -1,0 +1,25 @@
+$xxl: 1400px;
+$xl: 1200px;
+$lg: 992px;
+$md: 768px;
+$sm: 576px;
+@mixin media($value) {
+  @if $value==$xxl {
+   @content;
+  } 
+  @else if $value==$xl {
+    @content;
+  } 
+  @else if $value==$lg {
+    @content;
+  } 
+  @else if $value==$md {
+   @content;
+  } 
+  @else if $value==$sm {
+   @content;
+  } 
+  @else {
+   @content;
+  }
+}
